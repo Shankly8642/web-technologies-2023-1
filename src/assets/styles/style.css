@@ -2,10 +2,86 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.test {
-    color: yellow !important;
+.p
+{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
 }
 
-.test {
-    color: red !important;
+.h1
+{
+    font-size: 64px;
+    color: #1F3F68;
+    
 }
+
+.h2Contacts
+{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center; 
+}
+
+.h3
+{
+    font-size: 36px;
+    text-align: center; 
+}
+
+.h4
+{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+     
+}
+
+.forms
+{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.submit
+{
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #4876E6, #8D53E9);
+}
+
+form
+{
+    width: 300px;
+    background-image: url("../../fon.jpg");
+    background-size: 300px;
+}
+
+.breadcrumbs {
+    background: linear-gradient(#FFFFFF, #3C8182);
+    color: black;
+    padding: 13px 0px;
+}
+
+.breadcrumbs a
+{
+    text-decoration: none;
+    border-radius: 50px;
+    border-right: 3px solid white;
+    padding: 13px 20px;
+    box-shadow: 1.8px 0 0 0  black;
+}
+
+.breadcrumbs a:visited
+{
+    color: black;
+}
+
