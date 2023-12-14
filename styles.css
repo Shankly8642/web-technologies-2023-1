@@ -1,0 +1,180 @@
+@import "./global.css";
+@import "./fonts.css";
+@import "./utils.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    background-color: #F2F4F7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1124px;
+    height: 56px;
+    margin-top: 24px;
+    margin-left: 108px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #00000030;;
+}
+
+.header .ITW a {
+    color: #2D66EE;
+}
+.header .ITW 
+{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    width: 120px;
+    height: 24px;
+    padding: 12px 0px;
+    font-family: Inter;
+    letter-spacing: -0.15px;
+}
+
+.headerSections {
+    display: flex;
+    justify-content: space-between;
+    width: 324px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    padding: 12px 0px;
+}
+
+.headerSections a {
+    color: #101828;
+    font-family: Arial;
+}
+
+.header a
+{
+    text-decoration: none;
+}
+
+.headerTelAndMail 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 463px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    padding: 12px 0px;
+}
+
+.headerTelAndMail 
+{
+    color: #2D66EE;
+}
+
+.headerTelAndMail .tel {
+    display: flex;
+    justify-content: space-between;
+    width: 257px;
+    height: 24px;
+}
+
+.headerTelAndMail .tel img {
+    width: 13.8px;
+    height: 19.8px;
+    top: 2.1px;
+    left: 5.1px;
+}
+
+.headerTelAndMail .mail {
+    display: flex;
+    justify-content: space-between;
+    width: 174px;
+    height: 24px;
+}
+
+.headerTelAndMail .mail img {
+    width: 19.8px;
+    height: 15.8px;
+    top: 4.1px;
+    left: 2.1px;
+}
+
+.developmentInfoAndConsultationForm
+{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 900px;
+    background: url("../img/background-main.png") no-repeat right;
+}
+
+.developmentInfo
+{
+    width: 600px;
+    height: 220px;
+    margin-top: 160px;
+    margin-left: 108px;
+    font-family: Inter;
+}
+
+.developmentInfo h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    color: #101828;
+}
+
+.developmentInfo p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.23999999463558197px;
+    color: #101828;
+}
+
+.developmentInfo h2 span {
+    color: #306FF5;
+}
+
+.consultationForm
+{
+    width: 676px;
+    height: 186px;
+    margin-top: 64px;
+    margin-left: 108px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 24px 0px #00000030;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1224px;
+    height: 222px;
+    margin-left: 108px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: #101828;
+    box-shadow: 0px 2px 24px 0px #00000014;
+    margin-bottom: 10px;
+}
+.footer * {
+    margin: 0;
+    padding: 0;
+}
+
+.footer a
+{
+    text-decoration: none;
+}
