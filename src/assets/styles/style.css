@@ -2,11 +2,14 @@
 @import "./fonts.css";
 @import "./utils.css";
 
+@media  (min-width:1440px) 
+{
+    
+
 body 
 {
     margin: 0;
     padding: 0;
-    width: 1440px;
     background-color: #F2F4F7;
 }
 
@@ -15,26 +18,26 @@ body
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 1124px;
+    width: 78%;
     height: 56px;
     margin-top: 24px;
-    margin-left: 108px;
+    margin-left: 7.5%;
     border-radius: 12px;
-    padding: 16px 24px;
+    padding: 16px 1.6%;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px 0px #00000030;;
 }
 
-.header .ITW a 
+.header span a 
 {
     color: #2D66EE;
 }
-.header .ITW 
+.header span
 {
     font-weight: bold;
     font-size: 20px;
     line-height: 18px;
-    width: 120px;
+    width: 12%;
     height: 24px;
     font-family: Inter;
     letter-spacing: -0.15px;
@@ -44,7 +47,7 @@ body
 {
     display: flex;
     justify-content: space-between;
-    width: 324px;
+    width: 28.8%;
     height: 18px;
     font-size: 14px;
     font-weight: bold;
@@ -66,8 +69,8 @@ body
 .headerTelAndMail 
 {
     display: flex;
-    justify-content: space-between;
-    width: 463px;
+    gap: 32px;
+    width: 42%;
     height: 24px;
     font-size: 14px;
     font-weight: 500;
@@ -99,6 +102,7 @@ body
 {
     width: 13.8px;
     height: 19.8px;
+    margin-right: 10px;
 }
 
 .headerTelAndMail .mail 
@@ -106,20 +110,22 @@ body
     display: flex;
     width: 174px;
     height: 24px;
+    margin-left: 5px;
 }
 
 .headerTelAndMail .mail img 
 {
     width: 19.8px;
     height: 15.8px;
-    margin-right: 9px;
+    margin-top: 1px;
+    margin-right: 7px;
 }
 
 .developmentInfoAndConsultationForm
 {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
     height: 900px;
     background: url("background_firstScreen.png") no-repeat right;
 }
@@ -129,7 +135,7 @@ body
     width: 600px;
     height: 220px;
     margin-top: 160px;
-    margin-left: 108px;
+    margin-left: 7.5%;
     font-family: Inter;
 }
 
@@ -159,7 +165,7 @@ body
 
 .consultationForm
 {
-    width: 676px;
+    width: 46.94%;;
     height: 186px;
     margin-top: 64px;
     margin-left: 108px;
@@ -333,7 +339,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 1224px;
+    width: 85%;
     height: 222px;
     margin-left: 108px;
     padding: 24px;
@@ -367,14 +373,15 @@ body
 
 .footer .contacts 
 {
-    width: 1176px;
+    width: 96.08%;
     height: 54px;
     display: flex;
+    margin-left: 1%;
 }
 
 .footer .contact 
 {
-    width: 294px;
+    width: 25%;
     height: 54px;
     display: flex;
     flex-direction: column;
@@ -424,4 +431,5 @@ body
     margin-left: 10px;
     text-align: left;
     color: #FFFFFF;
+}
 }
