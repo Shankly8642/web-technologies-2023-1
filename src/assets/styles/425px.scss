@@ -348,16 +348,15 @@ $background-color_4: #101828;
 
 .DevelopedInIndustries{
     width: 100%;
-    height: fit-content;
-    padding-bottom: 50px;
+    height: 1350px;
 
     h2 {
-        width: 89.41%;
+        width: 49.48%;
         height: 104px;
-        margin-left: 3.76%;
-        margin-top: 31px;
+        margin-left: 7.5%;
+        margin-top: 80px;
         font-family: Inter, sans-serif;
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 700;
         line-height: 52px;
         letter-spacing: 0.33px;
@@ -370,21 +369,19 @@ $background-color_4: #101828;
     }
 
     .industries {
-		width: 89.82%;
-        height: 280px;
+        width: 78.25%;
+        height: 457px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin: 40px 0 0 7.5%;
         gap: 15px;
-		margin-top: 27px;
-		margin-left: 4.23%;
 
         .industry {
-            width: 28.73%;
+            width: fit-content;
             height: 44px;
             display: flex;
-			font-size: 14px;
 
             img {
                 width: 44px;
@@ -402,50 +399,47 @@ $background-color_4: #101828;
 
     .ProjectsProud {
         margin: auto;
-        width: 100%;
-		height: fit-content;
-		margin: 0;
-		margin-top: 32px;
+        margin-top: 120px;
+        width: 92%;
+        height: 717px;
 
         h2 {
-            width: 80%;
-            height: 40px;
+            margin: 0;
+            width: 84.98%;
+            height: 52px;
             font-family: Inter, sans-serif;
-            font-size: 36px;
+            font-size: 28px;
             font-weight: 700;
             line-height: 52px;
             letter-spacing: 0.33px;
             text-align: left;
             color: $color_2;
-			margin-top: 0;
-			margin-left: 3.76%;
         }
 
         p {
-            margin-top: 31px;
-            width: 80%;
-            font-size: 15px;
+            margin-top: 24px;
+            width: 76%;
+            font-size: 14px;
             font-weight: 500;
             line-height: 20px;
             letter-spacing: -0.24px;
             text-align: left;
             color: $color_2;
-			margin-left: 3.76%;
         }
 
         .projectsAndButton {
-            width: 91.76%;
+            width: 100%;
             height: 58px;
             display: flex;
             justify-content: space-between;
-            margin-top: 32px;
+            flex-wrap: wrap;
+            margin-top: 26px;
 
             .projects {
-                width: 76.92%;
+                width: 96%;
                 height: 58px;
                 display: flex;
 				flex-wrap: wrap;
-				margin-left: 4.1%;
 
                 .project {
                     width: fit-content;
@@ -454,7 +448,7 @@ $background-color_4: #101828;
                 p {
                     display: block;
                     width: fit-content;
-					margin: 11px 11px 0 0;
+                    margin: 16px;
                 }
     
                 p:hover {
@@ -474,51 +468,44 @@ $background-color_4: #101828;
                 border: none;
                 color: $color_5;
                 background-color: $color_1;
-				display: none;
+				margin-left: 65.42%;
             }
 
             button:hover
             {
                 cursor: pointer;
             }
-
-			.i-teka-mobile {
-                display: block;
-                width: 92.47%;
-                margin: auto;
-                margin-top: 32px;
         }
 
         .projectInfo {
             background: url("i-teka.png") no-repeat top right;
-            margin-top: 32px;
-            width: 100%;
-			height: fit-content;
-			background: none;
+			width: 85%;
+			background-position: bottom right;
+			background-size: 60%;
+			margin-top: 50px;
 
             h2 {
                 font-family: Inter, sans-serif;
-                font-size: 36px;
+                font-size: 28px;
                 font-weight: 700;
                 line-height: 52px;
                 letter-spacing: 0.33px;
                 text-align: left;
                 color: $color_2;
-				margin-left: 3.76%;
             }
 
             .info {
-                margin-top: 20px;
-                width: 49.02%;
-                height: 315px;
+                margin-top: 32px;
+				width: 100%;
+                height: 365px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
 
                 p {
-                    margin: 0 7.06%;
-                    width: 92.47%;
-                    font-size: 15px;
+                    margin: 0;
+                    width: 70.3%;
+                    font-size: 14px;
                     font-weight: 400;
                     line-height: 20px;
                     letter-spacing: -0.24px;
@@ -528,7 +515,7 @@ $background-color_4: #101828;
 
                 .developments {
                     p {
-                        font-size: 17px;
+                        font-size: 14px;
                         font-weight: 400;
                         line-height: 22px;
                         letter-spacing: -0.41px;
@@ -546,7 +533,6 @@ $background-color_4: #101828;
                     width: 239px;
                     display: flex;
                     justify-content: space-between;
-					margin-left: 7.06%;
 
                     div {
                         width: 112px;
@@ -555,7 +541,7 @@ $background-color_4: #101828;
                         p {
                             margin-left: 8px;
                             margin-top: 2px;
-                            font-size: 15px;
+                            font-size: 14px;
                             font-weight: 400;
                             line-height: 20px;
                             letter-spacing: -0.24px;
@@ -566,11 +552,10 @@ $background-color_4: #101828;
                 }
 
                 .users {
-                    width: 42%;
+                    width: 230px;
                     height: 59px;
                     display: flex;
                     justify-content: space-between;
-					margin-left: 7.06%;
 
                     .userGrowth,
                     .activeUsers {
@@ -579,7 +564,7 @@ $background-color_4: #101828;
                         justify-content: space-between;
 
                         .number {
-                            font-size: 24px;
+                            font-size: 20px;
                             font-weight: 700;
                             line-height: 35px;
                             letter-spacing: 0.33px;
@@ -588,7 +573,7 @@ $background-color_4: #101828;
                         }
 
                         .label {
-                            font-size: 13px;
+                            font-size: 12px;
                             font-weight: 400;
                             line-height: 16px;
                             letter-spacing: -0.1px;
@@ -603,56 +588,42 @@ $background-color_4: #101828;
                     justify-content: space-between;
                     width: 300px;
                     height: 40px;
-					margin-left: 7.06%;
                 }
-
-				.button-mobile {
-					display: block;
-					width: 258px;
-					height: 40px;
-					margin: auto;
-					margin-top: 32px;
-					border-radius: 8px;
-					border: none;
-					color: #FFFFFF;
-					background-color: #2D66EE;
-				}
             }
         }
     }
 }
-}
 
 .OurTeam {
     width: 100%;
-    height: 646px;
+	height: 884px;
 
     div {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        margin-top: 80px;
+        width: 91.66%;
+        height: 794px;
+		margin: auto;
+        margin-top: 38px;
         display: flex;
         justify-content: space-between;
 
         .ourTeamInfo {
             margin: 0;
 			width: 100%;
-            height: 616px;
+			height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
             h2 {
                 margin: 0;
+				font-size: 36px;
                 font-weight: 700;
                 line-height: 52px;
                 letter-spacing: 0.33px;
                 text-align: left;
                 color: $color_2;
-                font-size: 36px;
-				margin-left: 16px;
-                margin-top: 28px;
+				height: 40px;
+				width: 58.95%;
             }
 
             p {
@@ -664,56 +635,45 @@ $background-color_4: #101828;
                 letter-spacing: -0.24px;
                 text-align: left;
                 color: $color_2;
-				width: 88.47%;
-				height: 60px;
-				margin-left: 3.76%;
             }
 
-            .backgroundImage768px {
+			.backgroundImage768px {
 				display: block;
-				width: fit-content;
-				height: fit-content;
-				margin: 0 auto;
-				img{
-					height: 263px;
-				}
+				width: 100%;
+				height: 421px;
+				margin: 0;
 			}
 
             .infos {
                 margin: 0;
-                width: 88%;
-                height: 58px;
+				width: 584px;
+                height: 113px;
                 justify-content: space-between;
-				margin-left: 4%;
-
+				margin-left: 4.54%;
 
                 .info {
-                    height: 100%;
+                    width: 31.5%;
                     height: 97px;
-                    margin: 0;
+                    margin: 8px 0;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
 
                     span {
-                        font-size: 28px;
+                        font-size: 48px;
                         font-weight: 700;
                         letter-spacing: 0.33px;
                         text-align: left;
                         color: $color_2;
-						height: 24px;
-						line-height: normal;
                     }
 
                     p {
-                        font-size: 14px;
+                        font-size: 15px;
                         font-weight: 500;
                         line-height: 20px;
                         letter-spacing: -0.24px;
                         text-align: left;
                         color: #667085;
-						height: 14px;
-                        margin: 0;
                     }
                 }
             }
@@ -726,57 +686,54 @@ $background-color_4: #101828;
 
 .getBook {
     width: 100%;
-	height: 923px;
-	padding: 0;
+    height: 724px;
     background: url("Noise.png");
     background-color: $color_1;
+    padding-top: 76px;
 
     div {
         margin: auto;
-        width: 100%;
-        height: 100%;
+        width: 85%;
+        height: 428px;
         display: flex;
         justify-content: space-between;
 
         .getBookForm {
             width: 49.02%;
-            height: 428px;
+            height: 564px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
             h2 {
-				width: 78.35%;
-				margin: auto;
+                margin: 0;
                 color: $color_5;
-                font-size: 36px;
+                font-size: 28px;
                 font-weight: 700;
-				line-height: 40px;
+                line-height: 52px;
                 letter-spacing: 0.33px;
                 text-align: left;
-				height: 80px;
-				margin-top: 49px;
+				width: 455px;
             }
 
             form {
-                width: 78.82%;
+                width: 90%;
                 height: 431px;
-                padding: 32px 7.53%;
+                padding: 24px;
                 border-radius: 12px;
                 box-shadow: 0px 0px 24px 0px #00000029;
                 background-color: $color_5;
-				margin: auto;
 
                 .fieldsGetBookForm {
-                    width: 100%;
+                    width: 90%;
                     height: 320px;
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
-					margin: 0;
+					margin-top: 25px;
 
                     input {
-                        width: 92%;
+                        width: 98%;
                         border: none;
                         border-bottom: 1px solid #bdbdbd;
                         line-height: 1.25;
@@ -784,34 +741,33 @@ $background-color_4: #101828;
                     }
 
                     label {
-                        width: 50%;
-                        height: 78px;
+						width: 100%;
+                        height: 86px;
+                        margin-top: 12px;
                         font-size: 13px;
                         font-weight: 500;
                         line-height: 16px;
                         letter-spacing: -0.078px;
                         text-align: left;
                         color: #667085;
-						margin: 0;
                     }
 
                     .email {
-                        width: 98%;
+						width: 96%;
                     }
                 }
 
                 button {
-                    width: 225px;
+                    width: 200px;
                     height: 40px;
                     float: right;
-                    margin-top: 24px;
-                    margin-right: 24px;
+					margin: 0 0 0 5px;
                     padding: 11px, 24px;
                     border-radius: 8px;
                     background-color: $color_1;
                     border: none;
                     color: $color_5;
-					margin: 0;
+					float: left;
                 }
             }
         }
@@ -819,49 +775,51 @@ $background-color_4: #101828;
         .imageDekstop {
 			display: none;
             img {
-				
                 margin: auto;
                 margin-top: -46px;
             }
         }
 
-        .image768px {
+		.image768px {
 			display: block;
 			img {
-				width: 200px;
-				margin: auto;
+				margin-left: 15%;
+				margin-top: 130px;
 			}
     	}
-    }
+	
+	}
 }
 
 .ProjectDiscussInfoAndForm {
     width: 100%;
-    height: 541px;
+    height: 428px;
     background: url("Noise.png");
     background-color: $color_1;
 
     div {
-        width: 100%;
-        height: 541px;
-        margin: 0;
+        width: 78.125%;
+        height: 374px;
         display: flex;
         justify-content: space-between;
-        margin: auto;
+		flex-direction: column;
+		margin: 0;
+        margin-top: 80px;
+		margin-left: 5%;
 
         .projectDiscussInfo {
-			width: 80.94%;
+            width: 70%;
             height: 168px;
+			margin-top: 30px;
+			margin-left: 6.33%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             color: $color_5;
-			margin-top: 34px;
-			margin-left:  3.76%;
 
             h2 {
                 margin: 0;
-                font-size: 36px;
+                font-size: 28px;
                 font-weight: 700;
                 line-height: 52px;
                 letter-spacing: 0.33px;
@@ -871,40 +829,38 @@ $background-color_4: #101828;
 
             p {
                 margin: 0;
-                font-size: 15px;
+                font-size: 14px;
                 font-weight: 500;
                 line-height: 20px;
                 letter-spacing: 0px;
                 text-align: left;
+				width: 100%;
             }
         }
 
         .projectDiscussForm {
-            width: 92.47%;
-			height: 300px;
-            top: 80.2px;
+            width: 85%;
+            height: 350px;
             left: 59.8%;
-            padding: 30px 0px 0px 20px;
+            padding: 15px 0px 0px 20px;
             border-radius: 12px;
             background-color: $color_5;
-			margin: auto;
-			margin-top: 20px;
-			padding: 36px 4%;
+			margin-top: 32px
 
             form {
-                height: 228px;
+                width: 100%;
             }
 
             .fieldsProjectDiscussForm {
                 margin: 0;
                 width: 100%;
-                height: 172px;
+                height: 78px;
                 display: flex;
                 justify-content: space-between;
-				flex-direction: column;
+				flex-direction: row;
 
                 input {
-					width: 100%;
+                    width: 90%;
                     border: none;
                     border-bottom: 1px solid #bdbdbd;
                     line-height: 1.25;
@@ -912,9 +868,9 @@ $background-color_4: #101828;
                 }
 
                 label {
-                    width: 100%;
+                    width: 90%;
                     height: 78px;
-                    margin: 0;
+                    margin-top: 12px;
                     font-size: 13px;
                     font-weight: 500;
                     line-height: 16px;
@@ -925,15 +881,16 @@ $background-color_4: #101828;
             }
 
             button {
-                width: 255px;
+                width: 178px;
                 height: 40px;
-                float: none;
+                float: right;
+                margin-right: 4%;
                 padding: 11px auto;
                 border-radius: 8px;
                 background-color: $color_1;
                 border: none;
                 color: $color_5;
-				margin: 16px 52px;
+				margin-bottom: 10px;
             }
         }
     }
@@ -947,10 +904,10 @@ $background-color_4: #101828;
 
         h2 {
             margin: 0;
-            padding-top: 80px;
-            margin-left: 19px;
-            width: 374px;
-            font-size: 36px;
+            padding-top: 32px;
+			margin-left: 5.08%;
+			width: 78.125%;
+            font-size: 28px;
             font-weight: 700;
             text-align: left;
             vertical-align: bottom;
@@ -960,10 +917,12 @@ $background-color_4: #101828;
         .stages {
             margin: auto;
             margin-top: 34px;
-			width: 88%;
+			width: 87.63%;
             height: 1192px;
             display: flex;
             justify-content: space-between;
+			flex-direction: column;
+			margin-left: 5.08%;
 
             .stagesColumn {
                 margin: 0;
@@ -977,7 +936,7 @@ $background-color_4: #101828;
                     box-shadow: 0px 2px 24px 0px #00000014;
                     width: 100%;
                     height: 172px;
-					padding: 24px 0 0 6.09%;
+                    padding: 24px 0 0 3.57%;
 
                     .glav {
                         display: flex;
@@ -1013,15 +972,15 @@ $background-color_4: #101828;
 
 .faq {
     width: 100%;
-    height: fit-content;
-    padding-top: 20px;
+    height: 778px;
+	padding-top: 20px;
     background-color: $color_5;
 
     h2 {
         margin: 0;
-        margin-left: 5%;
+        margin-left: 4.6875%;
         width: 41.66%;
-        height: 40px;
+        height: 52px;
         font-size: 28px;
         font-weight: 700;
         line-height: 52px;
@@ -1033,13 +992,13 @@ $background-color_4: #101828;
     .questions {
         display: flex;
         justify-content: space-between;
-        width: 92.47%;
-        height: fit-content;
-        grid-gap: 0;
+		flex-direction: column;
+        width: 78.125%;
+        height: 652px;
+        gap: 24px;
+		grid-gap: 0;
         margin: auto;
         margin-top: 32px;
-		flex-direction: column;
-		padding-bottom: 32px;
 
         .questionsGroup {
             width: 100%;
@@ -1054,11 +1013,12 @@ $background-color_4: #101828;
                 justify-content: space-between;
 
                 .text {
-                    width: fit-content;
+					width: fit-content;
 
                     h3 {
-						font-size: 20px;
-						margin: 32px 0;
+                        margin: 0;
+                        margin-top: 46px;
+                        font-size: 20px;
                         font-weight: 600;
                         text-align: left;
                         color: $color_2;
@@ -1077,18 +1037,15 @@ $background-color_4: #101828;
             }
 
             .answer {
-                height: fit-content;
+                height: 304px;
 
                 .text {
                     display: flex;
                     flex-direction: column;
-					margin: 0;
-                    margin: 10px 0 32px 0;
 
                     p {
                         margin: 0;
                         margin-top: 24px;
-						margin-bottom: 24px;
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 20px;
@@ -1133,6 +1090,7 @@ $background-color_4: #101828;
 		letter-spacing: -0.15px;
 		text-align: center;
 		color: $color_5;
+		margin: auto;
 	}
 	.contacts {
 		width: 100%;
@@ -1158,6 +1116,7 @@ $background-color_4: #101828;
 				text-align: left;
 				color: $color_7;
 				margin-left: 5px;
+				margin: auto;
 			}
 		}
 		p {
