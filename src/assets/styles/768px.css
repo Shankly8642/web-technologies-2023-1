@@ -344,6 +344,641 @@
     margin-left: 12px;
     padding: 6px 5px;
   }
+  .DevelopedInIndustries {
+    width: 100%;
+    height: 1338px;
+  }
+  .DevelopedInIndustries h2 {
+    width: 49.48%;
+    height: 104px;
+    margin-left: 7.5%;
+    margin-top: 80px;
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries h2 span {
+    color: #306FF5;
+  }
+  .DevelopedInIndustries .industries {
+    width: 78.25%;
+    height: 457px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0 0 7.5%;
+    gap: 15px;
+  }
+  .DevelopedInIndustries .industries .industry {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 44px;
+    display: flex;
+  }
+  .DevelopedInIndustries .industries .industry img {
+    width: 44px;
+    height: 44px;
+  }
+  .DevelopedInIndustries .industries .industry p {
+    margin: 11px 0 11px 16px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud {
+    margin: auto;
+    margin-top: 120px;
+    width: 92%;
+    height: 717px;
+  }
+  .DevelopedInIndustries .ProjectsProud h2 {
+    margin: 0;
+    width: 84.98%;
+    height: 52px;
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud p {
+    margin-top: 24px;
+    width: 76%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 26px;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects {
+    width: 96%;
+    height: 58px;
+    display: flex;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects .project {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects p {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 16px;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects p:hover {
+    font-weight: 600;
+    border-bottom: 1px solid #2D66EE;
+    cursor: pointer;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton button {
+    width: 207px;
+    height: 40px;
+    margin-top: 9px;
+    margin-right: 4.57%;
+    padding: 11px, 24px, 11px, 24px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2D66EE;
+    margin-left: 65.42%;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton button:hover {
+    cursor: pointer;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo {
+    background: url("i-teka.png") no-repeat top right;
+    width: 85%;
+    background-position: bottom right;
+    background-size: 60%;
+    margin-top: 0;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo h2 {
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info {
+    margin-top: 32px;
+    width: 100%;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info p {
+    margin: 0;
+    width: 70.3%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .developments p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: left;
+    color: #475467;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .developments span {
+    color: #2D66EE;
+    font-weight: bold;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .locationIndustry {
+    width: 239px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .locationIndustry div {
+    width: 112px;
+    display: flex;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .locationIndustry div p {
+    margin-left: 8px;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .users {
+    width: 230px;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .users .userGrowth,
+.DevelopedInIndustries .ProjectsProud .projectInfo .info .users .activeUsers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .users .userGrowth .number,
+.DevelopedInIndustries .ProjectsProud .projectInfo .info .users .activeUsers .number {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .users .userGrowth .label,
+.DevelopedInIndustries .ProjectsProud .projectInfo .info .users .activeUsers .label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #667085;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectInfo .info .download {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+  }
+  .OurTeam {
+    width: 100%;
+    height: 884px;
+  }
+  .OurTeam div {
+    width: 91.66%;
+    height: 794px;
+    margin: auto;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .OurTeam div .ourTeamInfo {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .OurTeam div .ourTeamInfo h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+    height: 40px;
+    width: 58.95%;
+  }
+  .OurTeam div .ourTeamInfo p {
+    margin: 0;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+  }
+  .OurTeam div .ourTeamInfo .backgroundImage768px {
+    display: block;
+    width: 100%;
+    height: 421px;
+    margin: 0;
+  }
+  .OurTeam div .ourTeamInfo .infos {
+    margin: 0;
+    width: 584px;
+    height: 113px;
+    justify-content: space-between;
+    margin-left: 4.54%;
+  }
+  .OurTeam div .ourTeamInfo .infos .info {
+    width: 31.5%;
+    height: 97px;
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .OurTeam div .ourTeamInfo .infos .info span {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+  }
+  .OurTeam div .ourTeamInfo .infos .info p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #667085;
+  }
+  .OurTeam div .backgroundDekstop {
+    display: none;
+  }
+  .getBook {
+    width: 100%;
+    height: 724px;
+    background: url("Noise.png");
+    background-color: #2D66EE;
+    padding-top: 76px;
+  }
+  .getBook div {
+    margin: auto;
+    width: 85%;
+    height: 428px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .getBook div .getBookForm {
+    width: 49.02%;
+    height: 564px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .getBook div .getBookForm h2 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    width: 455px;
+  }
+  .getBook div .getBookForm form {
+    width: 90%;
+    height: 431px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1607843137);
+    background-color: #FFFFFF;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm {
+    width: 90%;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm input {
+    width: 92%;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    line-height: 1.25;
+    padding: 10px 10px 10px 0px;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm label {
+    width: 100%;
+    height: 86px;
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+    text-align: left;
+    color: #667085;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm .email {
+    width: 96%;
+  }
+  .getBook div .getBookForm form button {
+    width: 225px;
+    height: 40px;
+    float: right;
+    margin: 0 0 0 18.5px;
+    padding: 11px, 24px;
+    border-radius: 8px;
+    background-color: #2D66EE;
+    border: none;
+    color: #FFFFFF;
+    float: left;
+  }
+  .getBook div .imageDekstop {
+    display: none;
+  }
+  .getBook div .imageDekstop img {
+    margin: auto;
+    margin-top: -46px;
+  }
+  .getBook div .image768px {
+    display: block;
+  }
+  .getBook div .image768px img {
+    margin-left: 15%;
+    margin-top: 130px;
+  }
+  .ProjectDiscussInfoAndForm {
+    width: 100%;
+    height: 428px;
+    background: url("Noise.png");
+    background-color: #2D66EE;
+  }
+  .ProjectDiscussInfoAndForm div {
+    width: 78.125%;
+    height: 374px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 80px;
+    margin-left: 5%;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussInfo {
+    width: 57.33%;
+    height: 168px;
+    margin-top: 30px;
+    margin-left: 6.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussInfo h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    width: 56.68%;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussInfo p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 100%;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm {
+    width: 85%;
+    height: 350px;
+    left: 59.8%;
+    padding: 15px 0px 0px 20px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    margin-top: 32px form;
+    margin-top-width: 100%;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm .fieldsProjectDiscussForm {
+    margin: 0;
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm .fieldsProjectDiscussForm input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    line-height: 1.25;
+    padding: 10px 10px 10px 0px;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm .fieldsProjectDiscussForm label {
+    width: 90%;
+    height: 78px;
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+    text-align: left;
+    color: #667085;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm button {
+    width: 178px;
+    height: 40px;
+    float: right;
+    margin-right: 4%;
+    padding: 11px auto;
+    border-radius: 8px;
+    background-color: #2D66EE;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  .ApplicationDevelopmentStages div {
+    width: 100%;
+    height: 1340px;
+    background-color: #FFFFFF;
+  }
+  .ApplicationDevelopmentStages div h2 {
+    margin: 0;
+    padding-top: 32px;
+    margin-left: 5.08%;
+    width: 78.125%;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: bottom;
+    color: #101828;
+  }
+  .ApplicationDevelopmentStages div .stages {
+    margin: auto;
+    margin-top: 34px;
+    width: 87.63%;
+    height: 1192px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 5.08%;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn {
+    margin: 0;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage {
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.0784313725);
+    width: 100%;
+    height: 172px;
+    padding: 24px 0 0 3.57%;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage .glav {
+    display: flex;
+    width: 51%;
+    height: 48px;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage .glav h3 {
+    margin: 12px 0 12px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    text-align: left;
+    color: #101828;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+    width: 74.89%;
+    margin-top: 16px;
+  }
+  .faq {
+    width: 100%;
+    height: 778px;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+  }
+  .faq h2 {
+    margin: 0;
+    margin-left: 4.6875%;
+    width: 41.66%;
+    height: 52px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.37px;
+    text-align: left;
+    color: #101828;
+  }
+  .faq .questions {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 78.125%;
+    height: 652px;
+    gap: 24px;
+    grid-gap: 0;
+    margin: auto;
+    margin-top: 32px;
+  }
+  .faq .questions .questionsGroup {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    gap: 16px;
+  }
+  .faq .questions .questionsGroup .question {
+    width: 100%;
+    height: 116px;
+    border-top: 1px solid #D0D5DD;
+    display: flex;
+    justify-content: space-between;
+  }
+  .faq .questions .questionsGroup .question .text {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .faq .questions .questionsGroup .question .text h3 {
+    margin: 0;
+    margin-top: 46px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #101828;
+  }
+  .faq .questions .questionsGroup .question img {
+    margin-top: 28px;
+    width: 60px;
+    height: 60px;
+  }
+  .faq .questions .questionsGroup .question:last-child {
+    border-bottom: 1px solid #D0D5DD;
+  }
+  .faq .questions .questionsGroup .answer {
+    height: 304px;
+  }
+  .faq .questions .questionsGroup .answer .text {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq .questions .questionsGroup .answer .text p {
+    margin: 0;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    text-align: left;
+    color: #101828;
+  }
+  .faq .questions .questionsGroup .answer .text h3 {
+    margin-top: 28px;
+  }
   .footer {
     display: flex;
     flex-direction: column;
@@ -373,6 +1008,7 @@
     letter-spacing: -0.15px;
     text-align: center;
     color: #FFFFFF;
+    margin: 0 auto;
   }
   .footer .contacts {
     width: 96.08%;

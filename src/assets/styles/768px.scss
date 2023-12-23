@@ -344,6 +344,723 @@ $background-color_4: #101828;
 		padding: 6px 5px;
 	}
 }
+
+.DevelopedInIndustries{
+    width: 100%;
+    height: 1338px;
+
+    h2 {
+        width: 49.48%;
+        height: 104px;
+        margin-left: 7.5%;
+        margin-top: 80px;
+        font-family: Inter, sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0.33px;
+        text-align: left;
+        color: $color_2;
+
+        span {
+            color: #306FF5;
+        }
+    }
+
+    .industries {
+        width: 78.25%;
+        height: 457px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 40px 0 0 7.5%;
+        gap: 15px;
+
+        .industry {
+            width: fit-content;
+            height: 44px;
+            display: flex;
+
+            img {
+                width: 44px;
+                height: 44px;
+            }
+
+            p {
+                margin: 11px 0 11px 16px;
+                font-size: 17px;
+                font-weight: 500;
+                color: $color_2;
+            }
+        }
+    }
+
+    .ProjectsProud {
+        margin: auto;
+        margin-top: 120px;
+        width: 92%;
+        height: 717px;
+
+        h2 {
+            margin: 0;
+            width: 84.98%;
+            height: 52px;
+            font-family: Inter, sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0.33px;
+            text-align: left;
+            color: $color_2;
+        }
+
+        p {
+            margin-top: 24px;
+            width: 76%;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: -0.24px;
+            text-align: left;
+            color: $color_2;
+        }
+
+        .projectsAndButton {
+            width: 100%;
+            height: 58px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 26px;
+
+            .projects {
+                width: 96%;
+                height: 58px;
+                display: flex;
+
+                .project {
+                    width: fit-content;
+                }
+    
+                p {
+                    display: block;
+                    width: fit-content;
+                    margin: 16px;
+                }
+    
+                p:hover {
+                    font-weight: 600;
+                    border-bottom: 1px solid $color_1;
+                    cursor: pointer;
+                }
+            }
+    
+            button {
+                width: 207px;
+                height: 40px;
+                margin-top: 9px;
+                margin-right: 4.57%;
+                padding: 11px, 24px, 11px, 24px;
+                border-radius: 8px;
+                border: none;
+                color: $color_5;
+                background-color: $color_1;
+				margin-left: 65.42%;
+            }
+
+            button:hover
+            {
+                cursor: pointer;
+            }
+        }
+
+        .projectInfo {
+            background: url("i-teka.png") no-repeat top right;
+			width: 85%;
+			background-position: bottom right;
+			background-size: 60%;
+			margin-top: 0;
+
+            h2 {
+                font-family: Inter, sans-serif;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 52px;
+                letter-spacing: 0.33px;
+                text-align: left;
+                color: $color_2;
+            }
+
+            .info {
+                margin-top: 32px;
+				width: 100%;
+                height: 365px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    margin: 0;
+                    width: 70.3%;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: -0.24px;
+                    text-align: left;
+                    color: $color_2;
+                }
+
+                .developments {
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: -0.41px;
+                        text-align: left;
+                        color: #475467;
+                    }
+
+                    span {
+                        color: $color_1;
+                        font-weight: bold;
+                    }
+                }
+
+                .locationIndustry {
+                    width: 239px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    div {
+                        width: 112px;
+                        display: flex;
+
+                        p {
+                            margin-left: 8px;
+                            margin-top: 2px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            letter-spacing: -0.24px;
+                            text-align: left;
+                            color: $color_2;
+                        }
+                    }
+                }
+
+                .users {
+                    width: 230px;
+                    height: 59px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .userGrowth,
+                    .activeUsers {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .number {
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 35px;
+                            letter-spacing: 0.33px;
+                            text-align: left;
+                            color: $color_2;
+                        }
+
+                        .label {
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            letter-spacing: -0.1px;
+                            text-align: left;
+                            color: #667085;
+                        }
+                    }
+                }
+
+                .download {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 300px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+
+.OurTeam {
+    width: 100%;
+	height: 884px;
+
+    div {
+        width: 91.66%;
+        height: 794px;
+		margin: auto;
+        margin-top: 38px;
+        display: flex;
+        justify-content: space-between;
+
+        .ourTeamInfo {
+            margin: 0;
+			width: 100%;
+			height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h2 {
+                margin: 0;
+				font-size: 36px;
+                font-weight: 700;
+                line-height: 52px;
+                letter-spacing: 0.33px;
+                text-align: left;
+                color: $color_2;
+				height: 40px;
+				width: 58.95%;
+            }
+
+            p {
+                margin: 0;
+                height: 40px;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: -0.24px;
+                text-align: left;
+                color: $color_2;
+            }
+
+			.backgroundImage768px {
+				display: block;
+				width: 100%;
+				height: 421px;
+				margin: 0;
+			}
+
+            .infos {
+                margin: 0;
+				width: 584px;
+                height: 113px;
+                justify-content: space-between;
+				margin-left: 4.54%;
+
+                .info {
+                    width: 31.5%;
+                    height: 97px;
+                    margin: 8px 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    span {
+                        font-size: 48px;
+                        font-weight: 700;
+                        letter-spacing: 0.33px;
+                        text-align: left;
+                        color: $color_2;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: -0.24px;
+                        text-align: left;
+                        color: #667085;
+                    }
+                }
+            }
+        }
+        .backgroundDekstop {
+			display: none;
+        }
+    }
+}
+
+.getBook {
+    width: 100%;
+    height: 724px;
+    background: url("Noise.png");
+    background-color: $color_1;
+    padding-top: 76px;
+
+    div {
+        margin: auto;
+        width: 85%;
+        height: 428px;
+        display: flex;
+        justify-content: space-between;
+
+        .getBookForm {
+            width: 49.02%;
+            height: 564px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h2 {
+                margin: 0;
+                color: $color_5;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 52px;
+                letter-spacing: 0.33px;
+                text-align: left;
+				width: 455px;
+            }
+
+            form {
+                width: 90%;
+                height: 431px;
+                padding: 24px;
+                border-radius: 12px;
+                box-shadow: 0px 0px 24px 0px #00000029;
+                background-color: $color_5;
+
+                .fieldsGetBookForm {
+                    width: 90%;
+                    height: 320px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+					margin-top: 25px;
+
+                    input {
+                        width: 92%;
+                        border: none;
+                        border-bottom: 1px solid #bdbdbd;
+                        line-height: 1.25;
+                        padding: 10px 10px 10px 0px;
+                    }
+
+                    label {
+						width: 100%;
+                        height: 86px;
+                        margin-top: 12px;
+                        font-size: 13px;
+                        font-weight: 500;
+                        line-height: 16px;
+                        letter-spacing: -0.078px;
+                        text-align: left;
+                        color: #667085;
+                    }
+
+                    .email {
+						width: 96%;
+                    }
+                }
+
+                button {
+                    width: 225px;
+                    height: 40px;
+                    float: right;
+					margin: 0 0 0 18.5px;
+                    padding: 11px, 24px;
+                    border-radius: 8px;
+                    background-color: $color_1;
+                    border: none;
+                    color: $color_5;
+					float: left;
+                }
+            }
+        }
+
+        .imageDekstop {
+			display: none;
+            img {
+                margin: auto;
+                margin-top: -46px;
+            }
+        }
+
+		.image768px {
+			display: block;
+			img {
+				margin-left: 15%;
+				margin-top: 130px;
+			}
+    	}
+	
+	}
+}
+
+.ProjectDiscussInfoAndForm {
+    width: 100%;
+    height: 428px;
+    background: url("Noise.png");
+    background-color: $color_1;
+
+    div {
+        width: 78.125%;
+        height: 374px;
+        display: flex;
+        justify-content: space-between;
+		flex-direction: column;
+		margin: 0;
+        margin-top: 80px;
+		margin-left: 5%;
+
+        .projectDiscussInfo {
+            width: 57.33%;
+            height: 168px;
+			margin-top: 30px;
+			margin-left: 6.33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: $color_5;
+
+            h2 {
+                margin: 0;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 52px;
+                letter-spacing: 0.33px;
+                text-align: left;
+				width: 56.68%;
+            }
+
+            p {
+                margin: 0;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0px;
+                text-align: left;
+				width: 100%;
+            }
+        }
+
+        .projectDiscussForm {
+            width: 85%;
+            height: 350px;
+            left: 59.8%;
+            padding: 15px 0px 0px 20px;
+            border-radius: 12px;
+            background-color: $color_5;
+			margin-top: 32px
+
+            form {
+                width: 100%;
+            }
+
+            .fieldsProjectDiscussForm {
+                margin: 0;
+                width: 100%;
+                height: 78px;
+                display: flex;
+                justify-content: space-between;
+				flex-direction: row;
+
+                input {
+                    width: 90%;
+                    border: none;
+                    border-bottom: 1px solid #bdbdbd;
+                    line-height: 1.25;
+                    padding: 10px 10px 10px 0px;
+                }
+
+                label {
+                    width: 90%;
+                    height: 78px;
+                    margin-top: 12px;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    letter-spacing: -0.078px;
+                    text-align: left;
+                    color: #667085;
+                }
+            }
+
+            button {
+                width: 178px;
+                height: 40px;
+                float: right;
+                margin-right: 4%;
+                padding: 11px auto;
+                border-radius: 8px;
+                background-color: $color_1;
+                border: none;
+                color: $color_5;
+				margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.ApplicationDevelopmentStages {
+    div {
+        width: 100%;
+        height: 1340px;
+        background-color: $color_5;
+
+        h2 {
+            margin: 0;
+            padding-top: 32px;
+			margin-left: 5.08%;
+			width: 78.125%;
+            font-size: 28px;
+            font-weight: 700;
+            text-align: left;
+            vertical-align: bottom;
+            color: $color_2;
+        }
+
+        .stages {
+            margin: auto;
+            margin-top: 34px;
+			width: 87.63%;
+            height: 1192px;
+            display: flex;
+            justify-content: space-between;
+			flex-direction: column;
+			margin-left: 5.08%;
+
+            .stagesColumn {
+                margin: 0;
+				width: 100%;
+				height: 580px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .stage {
+                    box-shadow: 0px 2px 24px 0px #00000014;
+                    width: 100%;
+                    height: 172px;
+                    padding: 24px 0 0 3.57%;
+
+                    .glav {
+                        display: flex;
+                        width: 51%;
+                        height: 48px;
+
+                        h3 {
+                            margin: 12px 0 12px 24px;
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            letter-spacing: 0.38px;
+                            text-align: left;
+                            color: $color_2;
+                        }
+                    }
+
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: -0.24px;
+                        text-align: left;
+                        color: $color_2;
+						width: 74.89%;
+						margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.faq {
+    width: 100%;
+    height: 778px;
+	padding-top: 20px;
+    background-color: $color_5;
+
+    h2 {
+        margin: 0;
+        margin-left: 4.6875%;
+        width: 41.66%;
+        height: 52px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0.37px;
+        text-align: left;
+        color: $color_2;
+    }
+
+    .questions {
+        display: flex;
+        justify-content: space-between;
+		flex-direction: column;
+        width: 78.125%;
+        height: 652px;
+        gap: 24px;
+		grid-gap: 0;
+        margin: auto;
+        margin-top: 32px;
+
+        .questionsGroup {
+            width: 100%;
+            height: fit-content;
+            gap: 16px;
+
+            .question {
+                width: 100%;
+                height: 116px;
+                border-top: 1px solid #D0D5DD;
+                display: flex;
+                justify-content: space-between;
+
+                .text {
+					width: fit-content;
+
+                    h3 {
+                        margin: 0;
+                        margin-top: 46px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-align: left;
+                        color: $color_2;
+                    }
+                }
+
+                img {
+                    margin-top: 28px;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+
+            .question:last-child {
+                border-bottom: 1px solid #D0D5DD;
+            }
+
+            .answer {
+                height: 304px;
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+
+                    p {
+                        margin: 0;
+                        margin-top: 24px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: -0.32px;
+                        text-align: left;
+                        color: $color_2;
+                    }
+
+                    h3 {
+                        margin-top: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .footer {
 	display: flex;
 	flex-direction: column;
@@ -372,6 +1089,7 @@ $background-color_4: #101828;
 		letter-spacing: -0.15px;
 		text-align: center;
 		color: $color_5;
+		margin: 0 auto;
 	}
 	.contacts {
 		width: 96.08%;

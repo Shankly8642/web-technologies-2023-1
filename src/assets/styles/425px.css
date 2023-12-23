@@ -344,6 +344,698 @@
     margin-left: 12px;
     padding: 6px 5px;
   }
+  .DevelopedInIndustries {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+  .DevelopedInIndustries h2 {
+    width: 89.41%;
+    height: 104px;
+    margin-left: 3.76%;
+    margin-top: 31px;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries h2 span {
+    color: #306FF5;
+  }
+  .DevelopedInIndustries .industries {
+    width: 89.82%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 27px;
+    margin-left: 4.23%;
+  }
+  .DevelopedInIndustries .industries .industry {
+    width: 28.73%;
+    height: 44px;
+    display: flex;
+    font-size: 14px;
+  }
+  .DevelopedInIndustries .industries .industry img {
+    width: 44px;
+    height: 44px;
+  }
+  .DevelopedInIndustries .industries .industry p {
+    margin: 11px 0 11px 16px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud {
+    margin: auto;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    margin-top: 32px;
+  }
+  .DevelopedInIndustries .ProjectsProud h2 {
+    width: 80%;
+    height: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+    margin-top: 0;
+    margin-left: 3.76%;
+  }
+  .DevelopedInIndustries .ProjectsProud p {
+    margin-top: 31px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+    margin-left: 3.76%;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton {
+    width: 91.76%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects {
+    width: 76.92%;
+    height: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4.1%;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects .project {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects p {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 11px 11px 0 0;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projects p:hover {
+    font-weight: 600;
+    border-bottom: 1px solid #2D66EE;
+    cursor: pointer;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton button {
+    width: 207px;
+    height: 40px;
+    margin-top: 9px;
+    margin-right: 4.57%;
+    padding: 11px, 24px, 11px, 24px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2D66EE;
+    display: none;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton button:hover {
+    cursor: pointer;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .i-teka-mobile {
+    display: block;
+    width: 92.47%;
+    margin: auto;
+    margin-top: 32px;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo {
+    background: url("i-teka.png") no-repeat top right;
+    margin-top: 32px;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background: none;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo h2 {
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+    margin-left: 3.76%;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info {
+    margin-top: 20px;
+    width: 49.02%;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info p {
+    margin: 0 7.06%;
+    width: 92.47%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .developments p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: left;
+    color: #475467;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .developments span {
+    color: #2D66EE;
+    font-weight: bold;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .locationIndustry {
+    width: 239px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.06%;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .locationIndustry div {
+    width: 112px;
+    display: flex;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .locationIndustry div p {
+    margin-left: 8px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .users {
+    width: 42%;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.06%;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .users .userGrowth,
+.DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .users .activeUsers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .users .userGrowth .number,
+.DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .users .activeUsers .number {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .users .userGrowth .label,
+.DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .users .activeUsers .label {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #667085;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .download {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    margin-left: 7.06%;
+  }
+  .DevelopedInIndustries .ProjectsProud .projectsAndButton .projectInfo .info .button-mobile {
+    display: block;
+    width: 258px;
+    height: 40px;
+    margin: auto;
+    margin-top: 32px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2D66EE;
+  }
+  .OurTeam {
+    width: 100%;
+    height: 646px;
+  }
+  .OurTeam div {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .OurTeam div .ourTeamInfo {
+    margin: 0;
+    width: 100%;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .OurTeam div .ourTeamInfo h2 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+    font-size: 36px;
+    margin-left: 16px;
+    margin-top: 28px;
+  }
+  .OurTeam div .ourTeamInfo p {
+    margin: 0;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+    width: 88.47%;
+    height: 60px;
+    margin-left: 3.76%;
+  }
+  .OurTeam div .ourTeamInfo .backgroundImage768px {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 auto;
+  }
+  .OurTeam div .ourTeamInfo .backgroundImage768px img {
+    height: 263px;
+  }
+  .OurTeam div .ourTeamInfo .infos {
+    margin: 0;
+    width: 88%;
+    height: 58px;
+    justify-content: space-between;
+    margin-left: 4%;
+  }
+  .OurTeam div .ourTeamInfo .infos .info {
+    height: 100%;
+    height: 97px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .OurTeam div .ourTeamInfo .infos .info span {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #101828;
+    height: 24px;
+    line-height: normal;
+  }
+  .OurTeam div .ourTeamInfo .infos .info p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #667085;
+    height: 14px;
+    margin: 0;
+  }
+  .OurTeam div .backgroundDekstop {
+    display: none;
+  }
+  .getBook {
+    width: 100%;
+    height: 923px;
+    padding: 0;
+    background: url("Noise.png");
+    background-color: #2D66EE;
+  }
+  .getBook div {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .getBook div .getBookForm {
+    width: 49.02%;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .getBook div .getBookForm h2 {
+    width: 78.35%;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    height: 80px;
+    margin-top: 49px;
+  }
+  .getBook div .getBookForm form {
+    width: 78.82%;
+    height: 431px;
+    padding: 32px 7.53%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1607843137);
+    background-color: #FFFFFF;
+    margin: auto;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm input {
+    width: 92%;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    line-height: 1.25;
+    padding: 10px 10px 10px 0px;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm label {
+    width: 50%;
+    height: 78px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+    text-align: left;
+    color: #667085;
+    margin: 0;
+  }
+  .getBook div .getBookForm form .fieldsGetBookForm .email {
+    width: 98%;
+  }
+  .getBook div .getBookForm form button {
+    width: 225px;
+    height: 40px;
+    float: right;
+    margin-top: 24px;
+    margin-right: 24px;
+    padding: 11px, 24px;
+    border-radius: 8px;
+    background-color: #2D66EE;
+    border: none;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .getBook div .imageDekstop {
+    display: none;
+  }
+  .getBook div .imageDekstop img {
+    margin: auto;
+    margin-top: -46px;
+  }
+  .getBook div .image768px {
+    display: block;
+  }
+  .getBook div .image768px img {
+    width: 200px;
+    margin: auto;
+  }
+  .ProjectDiscussInfoAndForm {
+    width: 100%;
+    height: 541px;
+    background: url("Noise.png");
+    background-color: #2D66EE;
+  }
+  .ProjectDiscussInfoAndForm div {
+    width: 100%;
+    height: 541px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussInfo {
+    width: 80.94%;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-top: 34px;
+    margin-left: 3.76%;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussInfo h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.33px;
+    text-align: left;
+    width: 56.68%;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussInfo p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm {
+    width: 92.47%;
+    height: 300px;
+    top: 80.2px;
+    left: 59.8%;
+    padding: 30px 0px 0px 20px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 20px;
+    padding: 36px 4%;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm form {
+    height: 228px;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm .fieldsProjectDiscussForm {
+    margin: 0;
+    width: 100%;
+    height: 172px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm .fieldsProjectDiscussForm input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    line-height: 1.25;
+    padding: 10px 10px 10px 0px;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm .fieldsProjectDiscussForm label {
+    width: 100%;
+    height: 78px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+    text-align: left;
+    color: #667085;
+  }
+  .ProjectDiscussInfoAndForm div .projectDiscussForm button {
+    width: 255px;
+    height: 40px;
+    float: none;
+    padding: 11px auto;
+    border-radius: 8px;
+    background-color: #2D66EE;
+    border: none;
+    color: #FFFFFF;
+    margin: 16px 52px;
+  }
+  .ApplicationDevelopmentStages div {
+    width: 100%;
+    height: 1340px;
+    background-color: #FFFFFF;
+  }
+  .ApplicationDevelopmentStages div h2 {
+    margin: 0;
+    padding-top: 80px;
+    margin-left: 19px;
+    width: 374px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: bottom;
+    color: #101828;
+  }
+  .ApplicationDevelopmentStages div .stages {
+    margin: auto;
+    margin-top: 34px;
+    width: 88%;
+    height: 1192px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn {
+    margin: 0;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage {
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.0784313725);
+    width: 100%;
+    height: 172px;
+    padding: 24px 0 0 6.09%;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage .glav {
+    display: flex;
+    width: 51%;
+    height: 48px;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage .glav h3 {
+    margin: 12px 0 12px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    text-align: left;
+    color: #101828;
+  }
+  .ApplicationDevelopmentStages div .stages .stagesColumn .stage p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #101828;
+    width: 74.89%;
+    margin-top: 16px;
+  }
+  .faq {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+  }
+  .faq h2 {
+    margin: 0;
+    margin-left: 5%;
+    width: 41.66%;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.37px;
+    text-align: left;
+    color: #101828;
+  }
+  .faq .questions {
+    display: flex;
+    justify-content: space-between;
+    width: 92.47%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    grid-gap: 0;
+    margin: auto;
+    margin-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .faq .questions .questionsGroup {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    gap: 16px;
+  }
+  .faq .questions .questionsGroup .question {
+    width: 100%;
+    height: 116px;
+    border-top: 1px solid #D0D5DD;
+    display: flex;
+    justify-content: space-between;
+  }
+  .faq .questions .questionsGroup .question .text {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .faq .questions .questionsGroup .question .text h3 {
+    font-size: 20px;
+    margin: 32px 0;
+    font-weight: 600;
+    text-align: left;
+    color: #101828;
+  }
+  .faq .questions .questionsGroup .question img {
+    margin-top: 28px;
+    width: 60px;
+    height: 60px;
+  }
+  .faq .questions .questionsGroup .question:last-child {
+    border-bottom: 1px solid #D0D5DD;
+  }
+  .faq .questions .questionsGroup .answer {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .faq .questions .questionsGroup .answer .text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin: 10px 0 32px 0;
+  }
+  .faq .questions .questionsGroup .answer .text p {
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    text-align: left;
+    color: #101828;
+  }
+  .faq .questions .questionsGroup .answer .text h3 {
+    margin-top: 28px;
+  }
   .footer {
     display: flex;
     flex-direction: column;
