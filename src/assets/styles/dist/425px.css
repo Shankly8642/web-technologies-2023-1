@@ -326,23 +326,22 @@
     display: flex;
     flex-direction: column;
   }
-
-  .cycle {
+  .cycles .cycle {
     display: flex;
     list-style-type: none;
     font-size: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
   }
-  .cycle a {
+  .cycles .cycle a {
     text-decoration: none;
   }
-  .cycle a:hover {
+  .cycles .cycle a:hover {
     font-weight: 600;
     border-bottom: 1px solid #2D66EE;
     cursor: pointer;
   }
-  .cycle img {
+  .cycles .cycle img {
     margin-left: 12px;
     padding: 6px 5px;
   }
@@ -401,6 +400,13 @@
     color: #98A2B3;
     margin-left: 5px;
   }
+  .footer .contact p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+  }
   .footer img {
     vertical-align: middle;
   }
@@ -415,14 +421,6 @@
     line-height: 16px;
     letter-spacing: -0.078px;
     margin-left: 10px;
-    text-align: left;
-    color: #FFFFFF;
-  }
-
-  .contact p {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 25px;
     text-align: left;
     color: #FFFFFF;
   }
