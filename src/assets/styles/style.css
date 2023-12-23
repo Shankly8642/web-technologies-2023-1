@@ -5,12 +5,28 @@
 @media  (min-width:1440px) 
 {
     
-
+    
 body 
 {
     margin: 0;
     padding: 0;
     background-color: #F2F4F7;
+
+}
+
+#menuOpen
+{
+    display: none;
+}
+
+#menuClose
+{
+    display: none;
+}
+
+.menu_img, #menuClose .mail, #menuClose span 
+{
+  display: none;
 }
 
 .header 
@@ -153,7 +169,7 @@ body
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: -0.23999999463558197px;
+    letter-spacing: -0.24px;
     color: #101828;
     font-family: Arial;
 }
@@ -178,7 +194,7 @@ body
 
 .consultationForm p 
 {
-    width: 600px;
+    width: 450px;
     height: 48px;
     font-size: 20px;
     font-weight: bold;
@@ -348,6 +364,8 @@ body
     box-shadow: 0px 2px 24px 0px #00000014;
     margin-bottom: 10px;
     font-family: Inter;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer * 
