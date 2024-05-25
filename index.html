@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="pizzaSelection">
+
+            <article id="pepperoni" class="pizzaType"
+                onclick="pizzaTypeChanged('Пепперони', this)">
+                <img src="https://media.dodostatic.net/image/r:292x292/11EE7D610A62D78598406363A9A8AD65.jpg" alt="Пицца Пепперони">
+                <p class="pizzaName">Пепперони</p>
+            </article>
+
+            <article id="margarita" class="pizzaType"
+                onclick="pizzaTypeChanged('Маргарита', this)">
+                <img src="https://media.dodostatic.net/image/r:292x292/11EE7D6105EF6690B86FBDE6150B5B0C.jpg" alt="Пицца Маргарита">
+                <p class="pizzaName">Маргарита</p>
+            </article>
+
+            <article id="bavarian" class="pizzaType"
+            onclick="pizzaTypeChanged('Баварская', this)">
+                <img src="https://media.dodostatic.net/image/r:292x292/11EEF45D5CD88B939DA8A1E5F9DF03BB.jpg" alt="Баварская пицца">
+                <p class="pizzaName">Баварская</p>
+            </article>
+
+        </section>
+
+        <section class="pizzaParams">
+            <section class="sizeSelection">
+
+                <header>
+                    <h1>Выберите размер</h1>
+                    <img src="https://www.svgrepo.com/show/513832/info-circle.svg" alt="Дополнительная информация" title="Дополнительная информация"
+                        width="30" height="30" class="info">
+                </header>
+
+                <div class="sizeOptions">
+                    <div id="sizeSlider" class="slider0"></div>
+                    <input type="radio" id="small" name="size" checked>
+                    <label for="small" class="sizeLabel" onclick="pizzaSizeChanged('Small')">Маленькая</label>
+                    <input type="radio" id="big" name="size">
+                    <label for="big" class="sizeLabel" onclick="pizzaSizeChanged('Big')">Большая</label>
+                </div>
+
+            </section>
+
+            <section class="toppingsSelection">
+
+                <h2 class="toppingTitle">Добавить по вкусу</h2>
+
+                <button id="cheeseCrust" class="toppingType"
+                    onclick="toppingAdd('Cырный борт', this)">
+                    <img src="https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png" alt="Сырный бортик" title="Сырный бортик" width="150" height="150">
+                    <p class="toppingName">Сырный<br> бортик</p>
+                    <span id="cheeseCrustSpan" class="money">150₽</span>
+                </button>
+
+                <button id="creamyMozzarella" class="toppingType"
+                    onclick="toppingAdd('Сливочная моцарелла', this)">
+                    <img src="https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png" alt="Сливочная моцарелла" title="Сливочная моцарелла" width="150" height="150">
+                    <p class="toppingName">Сливочная<br> моцарелла</p>
+                    <span id="creamyMozzarellaSpan" class="money">50₽</span>
+                </button>
+
+                <button id="chedderParmizan" class="toppingType"
+                    onclick="toppingAdd('Чедер и пармезан', this)">
+                    <img src="https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796" alt="Чеддер и пармезан" title="Чеддер и пармезан" width="150" height="150">
+                    <p class="toppingName">Чеддер и<br> пармезан</p>
+                    <span id="chedderParmizanSpan" class="money">150₽</span>
+                </button>
+
+            </section>
+
+            <button id="add" class="cartButton">Добавить в корзину за<br>0Р (0 кКал)</button>
+
+        </section>
+    </main>
+
+    <script src="lab1.js"></script>
+</body>
+
+</html>

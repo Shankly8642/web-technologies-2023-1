@@ -11,8 +11,8 @@ class PizzaType{
 }
 
 class PizzaSize{
-    static Small = new PizzaType("Маленькая", 100, 100);
-    static Big = new PizzaType("Большая", 200, 200);
+    static Small = new PizzaSize("Маленькая", 100, 100);
+    static Big = new PizzaSize("Большая", 200, 200);
 
     constructor(name, price, calories) {
         this.name = name;
@@ -87,18 +87,104 @@ class Pizza {
     }
 }
 
-const Margarita = new Pizza(PizzaType.Margarita, PizzaSize.Big);
+const addButton = document.getElementById("add");
 
-console.log(Margarita.getStuffing());
-console.log(Margarita.getSize());
+function updateCartButtonText() {
+    addButton.innerHTML = `Добавить в корзину за<br>${currentPizza.calculatePrice()}₽ (${currentPizza.calculateCalories()} кКалл)`;
+}
 
-Margarita.addTopping(PizzaToppings.CreamyMozzarella);
-Margarita.addTopping(PizzaToppings.CheddarAndParmesan);
-console.log(Margarita.getToppings());
+let currentType = null;
+let curentSize = PizzaSize.Small;
 
-Margarita.addTopping(PizzaToppings.CheeseBoard);
-Margarita.removeTopping(PizzaToppings.CreamyMozzarella)
-console.log(Margarita.getToppings());
+let currentPizza;
+let selectedPizzaType = document.getElementById("margarita");
 
-console.log(Margarita.calculatePrice());
-console.log(Margarita.calculateCalories());
+function pizzaTypeChanged(value, object) {
+
+    selectedPizzaType.setAttribute("data-selected", "false");
+    object.setAttribute("data-selected", "true");
+
+    if (value == PizzaType.Pepperoni.name){
+        currentPizza = new Pizza(PizzaType.Pepperoni, curentSize, []);
+        currentType = PizzaType.Pepperoni;
+    }
+
+    if (value == PizzaType.Margarita.name){
+        currentPizza = new Pizza(PizzaType.Margarita, curentSize, []);
+        currentType = PizzaType.Margarita
+    }
+
+    if (value == PizzaType.Bavarian.name){
+        currentPizza = new Pizza(PizzaType.Bavarian, curentSize, []);
+        currentType = PizzaType.Bavarian
+    }
+
+    selectedPizzaType = object;
+
+    updateCartButtonText();
+}
+
+const slider = document.getElementById("sizeSlider");
+const cheeseCrust= document.getElementById("cheeseCrustSpan");
+const creamyMozzarella= document.getElementById("creamyMozzarellaSpan");
+const chedderParmizan = document.getElementById("chedderParmizanSpan");
+
+function pizzaSizeChanged(sizeValue) {
+    if (currentType == null){
+        alert( "Сначала выберите пиццу!" );
+    }
+    else if (sizeValue === "Big") {
+        moveSlider("slider100");
+
+        currentPizza = new Pizza(currentType, PizzaSize.Big, []);
+        curentSize = PizzaSize.Big;
+
+        cheeseCrust.textContent = "300₽";
+        creamyMozzarella.textContent = "100₽";
+        chedderParmizan.textContent = "300₽";
+    }
+    else if (sizeValue === "Small") {
+        moveSlider("slider0");
+
+        currentPizza = new Pizza(currentType, PizzaSize.Small, []);
+        curentSize = PizzaSize.Small;
+
+        cheeseCrust.textContent = "150₽";
+        creamyMozzarella.textContent = "50₽";
+        chedderParmizan.textContent = "150₽";
+    }
+    
+    updateCartButtonText();
+}
+
+let currentTopping;
+function toppingAdd(value, object) {
+
+    if (value == PizzaToppings.CheeseBoard.name)
+        currentTopping = PizzaToppings.CheeseBoard;
+
+    if (value == PizzaToppings.CreamyMozzarella.name)
+        currentTopping = PizzaToppings.CreamyMozzarella;
+
+    if (value == PizzaToppings.CheddarAndParmesan.name)
+        currentTopping = PizzaToppings.CheddarAndParmesan;
+
+    if (currentType == null){
+        alert( "Сначала выберите пиццу!" );
+    }
+    else if (object.getAttribute('data-selected') === 'true') {
+        object.setAttribute('data-selected', 'false');
+        currentPizza.removeTopping(currentTopping);
+    }
+    else {
+        object.setAttribute('data-selected', 'true');
+        currentPizza.addTopping(currentTopping);
+    }
+
+    updateCartButtonText();
+}
+
+
+function moveSlider(sliderClass) {
+    slider.className = sliderClass;
+}
