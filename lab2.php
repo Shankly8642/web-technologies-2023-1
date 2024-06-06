@@ -91,19 +91,60 @@ echo "<br>";
 
 function mathOperation($arg1, $arg2, $operation){
     switch($operation){
-        case "Сумма":
-            echo "Сумма = " . sum($arg1, $arg2) . "<br>";
-        case "Разность":
-            echo "Разность = " . difference($arg1, $arg2) . "<br>";
-        case "Произведение":
-            echo "Произведение = " . composition($arg1, $arg2) . "<br>";
-        case "Деление":
-            echo "Деление = " . division($arg1, $arg2) . "<br>";
+        case 'Сумма':
+            return sum($arg1, $arg2);
+        case 'Разность':
+            return difference($arg1, $arg2);
+        case 'Произведение':
+            return composition($arg1, $arg2);
+        case 'Деление':
+            return division($arg1, $arg2);
+        default:
+            return "Ошибка! Неверная операция";
     }
 }
 
 $a = 10;
 $b = 11;
 
-echo mathOperation($a, $b, "Сумма");
+echo "Сумма = " . mathOperation($a, $b, "Сумма") . "<br>";
+echo "Разность = " . mathOperation($a, $b, "Разность") . "<br>";
+echo "Произведение = " . mathOperation($a, $b, "Произведение") . "<br>";
+echo "Деление = " . mathOperation($a, $b, "Деление") . "<br>";
+echo "Деление с остатком = " . mathOperation($a, $b, "Деление с остатком") . "<br>";
+
+echo "<br>";
+echo "<br>";
+
+// Задание 5
+
+$first_way = date('Y');
+echo "Способ 1: <br>Текущий год: $first_way <br>";
+echo "<br>";
+$second_way = localtime(null, true)['tm_year'] + 1900;
+echo "Способ 2: <br>Текущий год: $second_way <br>";
+echo "<br>";
+$third_way = getdate()['year'];
+echo "Способ 3 <br>Текущий год: $third_way <br>";
+echo "<br>";
+
+echo "<br>";
+echo "<br>";
+
+// Задание 6
+
+function power($val, $pow){
+    if ($pow == 0)
+        return 1;
+    
+    if ($pow == 1)
+        return $val;
+
+    return $val * power($val, $pow - 1);
+}
+
+$a = 3;
+$b = 4;
+
+echo "Результат возведения $a в степень $b: " . power($a, $b);
 ?>
