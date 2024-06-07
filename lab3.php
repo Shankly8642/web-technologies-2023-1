@@ -80,5 +80,59 @@ echo transliteration($string, $letters);
 echo "<br>";
 echo "<br>";
 
-// Задание 4
+// Задание 4 и 5
+
+$menu = [
+    "Главная",
+    "Каталог игр" => [
+        "Шутеры" => [
+            "Call of Duty: Black Ops 6",
+            "Counter-Strike 2"
+        ],
+        "Экшены" => [
+            "Half-Life 2",
+            "Atomic Heart"
+        ],
+        "Гонки" => [
+            "Forza Horizon 5",
+            "Need for Speed: Most Wanted"
+        ]
+    ],
+    "Контакты"
+];
+
+function make_menu($menu){
+    echo '<ul>';
+    foreach ($menu as $key => $submenu) {
+        if (is_array($submenu)) {
+            echo '<li>' . $key;
+            make_menu($submenu);
+            echo '</li>';
+        } else {
+            echo '<li>' . $submenu . '</li>';
+        }
+    }
+    echo '</ul>';
+}
+
+make_menu($menu);
+
+echo "<br>";
+echo "<br>";
+
+// Задание 6
+
+function filterCities($cities) {
+    return array_filter($cities, function($city) {
+        return mb_substr($city, 0, 1) === 'К';
+    });
+}
+
+foreach ($regions as $region => $cities) {
+    $filteredCities = filterCities($cities);
+    echo $region . ":<br>";
+    if (!empty($filteredCities)) 
+        echo implode(", ", $filteredCities) . ".<br>";
+    echo "<br>";
+}
 ?>
